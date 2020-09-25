@@ -14,7 +14,7 @@ yarp_prepare_plugin(
   QUIET
 )
 
-if(ENABLE_ovrheadset)
+if(NOT ENABLE_ovrheadset)
   return()
 endif()
 
