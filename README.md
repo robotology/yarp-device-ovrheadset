@@ -16,5 +16,5 @@ BSD-3-Clause license. See the accompanying LICENSE file for details.
 The ovrheadset device uses the
 [Oculis SDK](https://developer.oculus.com/downloads/package/oculus-sdk-for-windows/),
 released under the
-[Oculus SDK License Agreement](https://developer.oculus.com/licenses/)
+[Oculus SDK License Agreement](https://developer.oculus.com/licenses/).
 See the relative documentation for the terms of the license.
