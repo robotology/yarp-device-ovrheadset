@@ -54,6 +54,8 @@ find_package(YARP 3.4 COMPONENTS os sig dev math REQUIRED)
 set(CMAKE_C_FLAGS "${YARP_C_FLAGS} ${CMAKE_C_FLAGS}")
 set(CMAKE_CXX_FLAGS "${YARP_CXX_FLAGS} ${CMAKE_CXX_FLAGS}")
 
+yarp_configure_plugins_installation(yarp-device-ovrheadset)
+
 find_package(GLFW3 REQUIRED)
 find_package(GLEW REQUIRED)
 find_package(OpenGL REQUIRED)
