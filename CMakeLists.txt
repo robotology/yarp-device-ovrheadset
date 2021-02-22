@@ -7,7 +7,7 @@
 cmake_minimum_required(VERSION 3.12)
 project(yarp-device-ovrheadset
         LANGUAGES CXX
-        VERSION 3.4.100)
+        VERSION 1.0.0)
 
 include(FeatureSummary)
 
