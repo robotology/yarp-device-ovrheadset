@@ -8,7 +8,7 @@ yarp_prepare_plugin(ovrheadset
   CATEGORY device
   TYPE yarp::dev::OVRHeadset
   INCLUDE OVRHeadset.h
-  DEPENDS "LibOVR_FOUND;GLFW3_FOUND;GLEW_FOUND;OpenGL_FOUND"
+  DEPENDS "LibOVR_FOUND;glfw3_FOUND;GLEW_FOUND;OpenGL_FOUND"
   INTERNAL
   QUIET
 )
@@ -77,7 +77,7 @@ target_link_libraries(yarp_ovrheadset
     YARP::YARP_math
     LibOVR::OVR
     GLEW::GLEW
-    GLFW3::GLFW3
+    glfw
     OpenGL::GL
 )
 
